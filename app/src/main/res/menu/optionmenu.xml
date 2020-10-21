@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/txtcut"
+      android:title="cut"
+    android:icon="@drawable/ic_content_cut_black_24dp"/>
+    <item android:id="@+id/txtcopy"
+        android:title="copy"
+        android:icon="@drawable/ic_content_copy_black_24dp"/>
+        <item android:id="@+id/txtdel"
+            android:title="delete"
+            android:icon="@drawable/ic_delete_black_24dp"
+            app:showAsAction="withText"/>
+
+
+</menu>
